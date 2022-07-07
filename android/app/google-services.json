@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "988559802380",
+    "project_id": "cashpro-c343e",
+    "storage_bucket": "cashpro-c343e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988559802380:android:933eb0ad16381a0963ae29",
+        "android_client_info": {
+          "package_name": "com.example.azimio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988559802380-3ovjdusdsusr0l36bbtjrni9cpneipsc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn7BKU1xUPIE8LzvdciMuei8aBI2lSSJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988559802380-3ovjdusdsusr0l36bbtjrni9cpneipsc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988559802380:android:6ee6ff1d6668cea463ae29",
+        "android_client_info": {
+          "package_name": "com.flutterflow.azimiomembership"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988559802380-3ovjdusdsusr0l36bbtjrni9cpneipsc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn7BKU1xUPIE8LzvdciMuei8aBI2lSSJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988559802380-3ovjdusdsusr0l36bbtjrni9cpneipsc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
