@@ -38,6 +38,9 @@ addVolunteers(String email, String first_name,String last_name,String county,Str
   Stream<QuerySnapshot> get users {
     return _firestore.collection("users").snapshots();
   }
+  Stream<QuerySnapshot> get gallery {
+    return _firestore.collection("gallery").snapshots();
+  }
 
 
 }

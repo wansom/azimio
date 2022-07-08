@@ -2,6 +2,7 @@ import 'package:azimio/constants.dart';
 import 'package:azimio/models/nav_model.dart';
 import 'package:azimio/screens/home/Feedback.dart';
 import 'package:azimio/screens/home/Volunteer.dart';
+import 'package:azimio/screens/home/gallery.dart';
 import 'package:azimio/screens/home/homescreen.dart';
 import 'package:azimio/screens/home/manifesto.dart';
 import 'package:azimio/screens/utils/custom_paint.dart';
@@ -21,12 +22,13 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
     HomeScreen(),
     VoluntterScreen(),
     FeedbackScreen(),
-    Manifesto()
+    Manifesto(),
+    Gallery()
 
   ];
   @override
   Widget build(BuildContext context) {
-    TabController _tabController = TabController(length: 4, vsync: this);
+    TabController _tabController = TabController(length: 5, vsync: this);
     return  Scaffold(
 
       body:pages[selectBtn],
